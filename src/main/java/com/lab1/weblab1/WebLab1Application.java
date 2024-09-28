@@ -8,7 +8,6 @@ public class WebLab1Application {
 
 	public static void main(String[] args) {
 		System.out.println("Hiiii!");
-		System.out.println("Test message!");
 		SpringApplication.run(WebLab1Application.class, args);
 	}
 
