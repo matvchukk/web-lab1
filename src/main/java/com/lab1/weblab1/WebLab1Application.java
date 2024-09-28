@@ -10,7 +10,6 @@ public class WebLab1Application {
 		System.out.println("Hiiii!");
 
 
-		System.out.println("Bye!");
 		SpringApplication.run(WebLab1Application.class, args);
 	}
 
