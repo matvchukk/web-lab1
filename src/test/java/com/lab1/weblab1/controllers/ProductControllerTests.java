@@ -10,7 +10,7 @@ public class ProductControllerTests {
     public void getProductTest () {
         ProductController productController = new ProductController();
         int productId = 10;
-        Product expectedProduct = new Product(productId, productId + "name");
+        Product expectedProduct = new Product(productId, productId + " name");
         Product actualProduct = productController.getProduct(productId);
         assertEquals(expectedProduct.getId(), actualProduct.getId());
         assertEquals(expectedProduct.getName(), actualProduct.getName());
